@@ -81,7 +81,7 @@ export default function Steps() {
                 </label>
                 <label className='label-steps'>
                     <span>{'Пройдено км (<100)'}</span>
-                    <input className="input-distance" name='distance' required pattern='^0*(?:[1-9]*[.,][0-9]*[.,]?|100)$|^0*(?:[1-9][0-9]?|100)$' value={steps.distance} onChange={handleChange}></input>
+                    <input className="input-distance" name='distance' required pattern='^0*(?:[1-9]*[.][0-9]*[.]?|100)$|^0*(?:[1-9][0-9]?|100)$' value={steps.distance} onChange={handleChange}></input>
                 </label>
                 <button className='form-btn'>OK</button>
             </form>
